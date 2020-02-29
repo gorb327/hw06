@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 15px;
+}
+.heder {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 125px;
+}
+.nav {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+.nav-item {
+    margin-right: 60px;
+}
+.nav-item:last-child {
+    margin-right: 0px;
+}
+.link-active {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: #f38181;
+    border-bottom: 3px #f38181 solid;
+}
+.link {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: #95e1d3;
+}
+
+.we {
+    display: flex;
+    justify-content: center;
+    color: #333333;
+    font-family: 'Kaushan Script', cursive;
+    margin-bottom: 25px;
+}
+.amazing {
+    display: flex;
+    justify-content: center;
+    color: #333333;
+    font-family: "Montserrat";
+    /* margin-bottom: 110px; */
+}
+.card-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.card {
+    width: 30%;
+}
+.card-img {
+     
+}
+.card-h4 {
+
+}
+.para-main {
+
+}
